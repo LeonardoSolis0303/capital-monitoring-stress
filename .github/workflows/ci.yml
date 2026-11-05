@@ -1,0 +1,23 @@
+name: Validation
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install package
+        run: python -m pip install .
+      - name: Analytical and pipeline tests
+        run: python -m unittest discover -s tests -v
+      - name: Reproduce committed evidence
+        run: python scripts/verify_examples.py
+      - name: Check Office package evidence
+        run: python scripts/verify_office.py

@@ -1,0 +1,22 @@
+{
+  "baseline_date": "2024-12-31",
+  "target_ratio": "0.105",
+  "deductions": "0",
+  "tier2": "0",
+  "book": {
+    "fx_net_mxn": "-1500",
+    "dv01_mxn_m_per_bp": "1.5",
+    "credit_ead": "8000",
+    "lgd": "0.60",
+    "foreign_credit_share": "0.45"
+  },
+  "assumptions": [
+    "Historical 2024 disclosure anchors scale; 2025 remains a separate reconciliation review item.",
+    "Synthetic eligible capital equals equity: zero deductions and zero Tier 2 are assumptions, not independently verified eligibility.",
+    "All positions, sensitivities, credit exposures and scenario shocks are hypothetical; they do not represent the source institution's portfolio.",
+    "10.5% is a configured total-capital monitoring target. No fundamental/basic capital buffer test or formal supervisory category is assigned.",
+    "One-year planning exercise with instantaneous shocks; no operating earnings, tax benefit, hedging response, retained profit or external capital injection.",
+    "Linear DV01 approximation; credit default proxy is separate from FX and rates books. Defaulted exposures remain in RWA; no relief assumed.",
+    "Credit migration and market/operational RWA multipliers are scenario overlays, not a reconstruction of CNBV regulatory schedules."
+  ]
+}

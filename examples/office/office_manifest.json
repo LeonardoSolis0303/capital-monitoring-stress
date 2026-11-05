@@ -1,0 +1,9 @@
+{
+  "run_id": "f3372b36343d0f0f",
+  "files": {
+    "capital_committee.pptx": "c3b6e262936d16942b3084a74039a69667ede76596cebde8d762da7e2417dcfe",
+    "capital_review.xlsx": "be77e97aa04cce297b1630b2096dc2622691f655a8192b9bc922a3ffa67116e2",
+    "preview.png": "1b1067e981bae052db712740d5b365528c6c56c10c8cb68513eda798166ad7fb"
+  },
+  "validation": "Rendered and inspected; formula agreement and input-change recalculation verified in Artifact Tool. PPTX package, geometry, fonts and reimport passed. Desktop Office execution not performed."
+}

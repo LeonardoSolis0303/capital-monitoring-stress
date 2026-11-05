@@ -1,0 +1,9 @@
+as_of,control,observed,expected,difference,tolerance,status,note
+2024-12-31,BALANCE_SHEET,6024,6024,0,1,PASS,MXN millions; tolerance reflects whole-million presentation
+2024-12-31,RWA_COMPONENTS,39836,39836,0,1,PASS,RWA table explicitly unaudited
+2024-12-31,BASIC_TO_EQUITY,6024,6024,0,1,PASS,Disclosure cross-check; not a regulatory capital eligibility test
+2024-12-31,RATIO_PROXY,15.12200020082337584094788633,15.1,0.02200020082337584094788633,0.055,PASS,Basic capital / RWA proxy versus reported ICAP; missing bridge may explain a difference
+2025-12-31,BALANCE_SHEET,6183,6183,0,1,PASS,MXN millions; tolerance reflects whole-million presentation
+2025-12-31,RWA_COMPONENTS,35923,35923,0,1,PASS,RWA table explicitly unaudited
+2025-12-31,BASIC_TO_EQUITY,6183,6183,0,1,PASS,Disclosure cross-check; not a regulatory capital eligibility test
+2025-12-31,RATIO_PROXY,17.21181415806029563232469449,17.1,0.11181415806029563232469449,0.055,REVIEW,Basic capital / RWA proxy versus reported ICAP; missing bridge may explain a difference

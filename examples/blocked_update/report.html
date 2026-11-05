@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Capital review | 5e5b40b88cf8e800</title>
+<style>body{font:15px/1.55 system-ui,sans-serif;background:#f5f6f4;color:#17291f;margin:0}
+main{max-width:1200px;margin:auto;padding:40px 30px}h1{font-size:36px;line-height:1.15}
+h2{margin-top:36px}.eyebrow{letter-spacing:.13em;font-size:12px;text-transform:uppercase}
+.cards{display:flex;gap:18px;flex-wrap:wrap}.card{background:#fff;padding:20px;flex:1;border-top:4px solid #1b4332}
+strong{display:block;font-size:28px}table{border-collapse:collapse;width:100%;background:white}
+td,th{padding:11px 12px;text-align:right;border-bottom:1px solid #dbe1dc;font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left}th{background:#1b4332;color:white;font-size:12px}
+.table{overflow-x:auto}footer,.muted{color:#5c6961;font-size:13px}a{color:#1b4332}
+@media print{body{background:white}main{padding:0}table{font-size:10px}h2{break-after:avoid}tr{break-inside:avoid}}
+</style><main><div class="eyebrow">Finance / Capital monitoring / Independent analysis</div>
+<h1>Capital resilience under stress</h1><p>Historical calibration: 2025-12-31 · MXN millions ·
+Hypothetical portfolio · Run 5e5b40b88cf8e800</p><div class="cards"><div class='card'>BASELINE BLOCKED — reconcile source inputs before stress execution.</div></div>
+<h2>Scenario outcomes</h2><p>Monitoring target 10.5%. Negative headroom is a modeled target shortfall.</p>
+<div class="table"></div><h2>Capital ratio attribution</h2>
+<p>Exact sequential bridge: capital change at original RWA, then denominator change at stressed capital.</p>
+<div class="table"></div><h2>Reverse stress</h2><p>No crossing result available.</p>
+<h2>Disclosure reconciliation</h2><p>RATIO_PROXY compares basic capital / RWA with disclosed ICAP; it does not independently verify total eligible capital.</p>
+<div class="table"><table><thead><tr><th>As of</th><th>Control</th><th>Difference</th><th>Tolerance</th><th>Result</th></tr></thead><tbody><tr><td>2024-12-31</td><td>BALANCE_SHEET</td><td>0.000</td><td>1.000</td><td>PASS</td></tr><tr><td>2024-12-31</td><td>RWA_COMPONENTS</td><td>0.000</td><td>1.000</td><td>PASS</td></tr><tr><td>2024-12-31</td><td>BASIC_TO_EQUITY</td><td>0.000</td><td>1.000</td><td>PASS</td></tr><tr><td>2024-12-31</td><td>RATIO_PROXY</td><td>0.022</td><td>0.055</td><td>PASS</td></tr><tr><td>2025-12-31</td><td>BALANCE_SHEET</td><td>0.000</td><td>1.000</td><td>PASS</td></tr><tr><td>2025-12-31</td><td>RWA_COMPONENTS</td><td>0.000</td><td>1.000</td><td>PASS</td></tr><tr><td>2025-12-31</td><td>BASIC_TO_EQUITY</td><td>0.000</td><td>1.000</td><td>PASS</td></tr><tr><td>2025-12-31</td><td>RATIO_PROXY</td><td>0.112</td><td>0.055</td><td>REVIEW</td></tr></tbody></table></div><h2>Model basis</h2><ul><li>Historical 2024 disclosure anchors scale; 2025 remains a separate reconciliation review item.</li><li>Synthetic eligible capital equals equity: zero deductions and zero Tier 2 are assumptions, not independently verified eligibility.</li><li>All positions, sensitivities, credit exposures and scenario shocks are hypothetical; they do not represent the source institution&#x27;s portfolio.</li><li>10.5% is a configured total-capital monitoring target. No fundamental/basic capital buffer test or formal supervisory category is assigned.</li><li>One-year planning exercise with instantaneous shocks; no operating earnings, tax benefit, hedging response, retained profit or external capital injection.</li><li>Linear DV01 approximation; credit default proxy is separate from FX and rates books. Defaulted exposures remain in RWA; no relief assumed.</li><li>Credit migration and market/operational RWA multipliers are scenario overlays, not a reconstruction of CNBV regulatory schedules.</li></ul>
+<footer>Public calibration source: <a href="https://www.morganstanley.com/content/dam/msdotcom/global-offices/pdf/latin-america/Morgan-Stanley-Casa-de-Bolsa-EEFF-dictamen-Diciembre-2025.pdf">issuer financial statements</a>.
+Risk-weighted asset disclosures are explicitly unaudited. Independent project; no affiliation or regulatory submission.
+Output integrity is recorded in manifest.json.</footer></main></html>

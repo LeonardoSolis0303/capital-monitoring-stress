@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "capital-monitoring-stress"
+version = "1.0.0"
+description = "Reconciled capital monitoring, scenario attribution and reverse stress testing"
+requires-python = ">=3.11"
+dependencies = []
+authors = [{name = "Leonardo Solís"}]
+
+[project.scripts]
+capital-monitor = "capitalmonitor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

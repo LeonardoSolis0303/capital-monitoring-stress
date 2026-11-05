@@ -1,0 +1,9 @@
+name,fx_change,rate_bps,default_fraction,credit_migration,market_multiplier,operational_multiplier,new_credit_rwa,distribution
+BASELINE,0,0,0,0,1,1,0,0
+FX_DEPRECIATION,0.20,0,0,0,1,1,0,0
+RATES_UP,0,200,0,0,1,1,0,0
+COUNTERPARTY_DEFAULT,0,0,0.10,0.20,1,1,0,0
+COMBINED_ADVERSE,0.20,200,0.10,0.20,1.25,1,0,0
+COMBINED_SEVERE,0.35,400,0.25,0.40,1.50,1.15,0,0
+NEW_BUSINESS,0,0,0,0,1,1,10000,0
+CAPITAL_DISTRIBUTION,0,0,0,0,1,1,0,1500

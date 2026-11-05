@@ -1,0 +1,13 @@
+{
+  "id": "MSMX_2025_FINANCIALS",
+  "pages": {
+    "balance_sheet": "printed 5 / PDF 7",
+    "capital_and_rwa": "printed 40 / PDF 42",
+    "minimum_ratios": "printed 9 / PDF 11"
+  },
+  "qualification": "Risk-weighted asset disclosures explicitly marked unaudited in note 19. Capital basico is disclosed; total eligible capital is a model assumption, not a separately transcribed disclosure.",
+  "retrieved": "2026-11-05",
+  "sha256": "da2cd3f23079e0ce86b0a5f1b05257b425f8cf1dd65d8aee131ce2aebc405366",
+  "statement_date": "2025-12-31",
+  "url": "https://www.morganstanley.com/content/dam/msdotcom/global-offices/pdf/latin-america/Morgan-Stanley-Casa-de-Bolsa-EEFF-dictamen-Diciembre-2025.pdf"
+}

@@ -1,0 +1,24 @@
+{
+  "code": {
+    "__init__.py": "a7b1e8e7d9a50e7a57ec56a2ed93513d0e1b426c57caef0582aa86260a2ffc03",
+    "cli.py": "c53dab199a08178bc88de76df17f94fb001586308bf76fe6a1fa09005e3d1a99",
+    "inputs.py": "ad79a86631e234e780038e78bcef678c9cfe9a7aebd311cb556d7dcf3c3ede95",
+    "model.py": "573475ae6426c523b6304f7ed187bf045383ba9e1f9d2dc64addbaf5e7c3b6ca",
+    "reporting.py": "24713cdee5c1199739293d24f979553e239901c9016a9060782fb32178548ca7"
+  },
+  "inputs": {
+    "config.json": "bbbb60c85e6d64e257dc8ab2af1915c851e53254c59eb5341d8716d262fe02c1",
+    "disclosures.csv": "123a276a5ffa996e5a8264a543ce63dbca40c73580274389cbaf2d039614f9b0",
+    "scenarios.csv": "f30e7a8e782ef2ebe62e2c0944ca200b240140f729bce3e5cb27c2a45f288d92",
+    "source.json": "0dd08421c5c2e8c080a02e8a1f6ed902227cfee5f2d058db632fa4c5197598c1"
+  },
+  "outputs": {
+    "committee_brief.md": "9576642d9589a8adeafade5c03fa17a0b1df979c745e855ba3af58b063f4b512",
+    "reconciliations.csv": "cd484bde2a92734f86c8b31f2ef213e7ba9b38a57bd5da96be4945750a0667f1",
+    "report.html": "de57b4c50334c42130e1fc741fdc25cab5e0cbdaf2bc42f69d905d20d2027d2b",
+    "source.json": "ee50f9aa585fe572e34a64706b70a6a86c3ca0f1a10704405af962b0d049ee76",
+    "summary.json": "c7b542634b89b55feb8496da32b0244893b2e23d9632535156845cab5eb4d648"
+  },
+  "run_id": "5e5b40b88cf8e800",
+  "schema_version": 1
+}
