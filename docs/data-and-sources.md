@@ -19,9 +19,9 @@ The source table labels its aggregate “Total requerimiento de capital,” alth
 - Basic capital: versus stated equity; tolerance 1 million. This is a source cross-check, not a universal identity.
 - Ratio proxy: basic capital / stated RWA × 100 versus reported percentage; tolerance **0.055 percentage points (5.5bp)**. This permits 0.05 percentage-point displayed-ratio rounding plus a small allowance for whole-million inputs at the example's scale. It is not a universal materiality policy.
 
-2024: 6,024 / 39,836 = 15.122001…%, compared with reported 15.1%: within tolerance.
+2024: 6,024 / 39,836 = 15.1220% (rounded), compared with reported 15.1%: within tolerance.
 
-2025: 6,183 / 35,923 = 17.211812…%, compared with reported 17.1%: outside tolerance. The numerator is disclosed **basic capital**, whereas reported ICAP refers to net eligible capital. The project therefore raises `RATIO_PROXY` for review rather than asserting the financial statements contain an error. A verified regulatory capital bridge would be required to resolve it.
+2025: 6,183 / 35,923 = 17.2118% (rounded), compared with reported 17.1%: outside tolerance. The numerator is disclosed **basic capital**, whereas reported ICAP refers to net eligible capital. The project therefore raises `RATIO_PROXY` for review rather than asserting the financial statements contain an error. A verified regulatory capital bridge would be required to resolve it.
 
 The reference model deliberately uses the reconciled historical calibration, not the latest available date. Its zero deductions and zero Tier 2 are explicit hypothetical assumptions; even a passing proxy check does not verify regulatory eligibility.
 
